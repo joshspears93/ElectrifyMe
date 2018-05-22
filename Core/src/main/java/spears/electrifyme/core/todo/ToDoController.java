@@ -1,7 +1,6 @@
 package spears.electrifyme.core.todo;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -45,7 +44,8 @@ public class ToDoController {
      */
     @PostMapping("/add")
     public ResponseEntity<ToDo> createToDo(@Valid @RequestBody ToDo todo){
-        return ResponseEntity.ok().body(toDoService.createToDo(todo));
+        ToDo newToDo = toDoService.createToDo(todo);
+        return ResponseEntity.ok().body(newToDo);
     }
 
     /**
@@ -72,7 +72,7 @@ public class ToDoController {
             return ResponseEntity.ok().build();
         }
         else{
-            return ResponseEntity.badRequest().build();
+            return ResponseEntity.notFound().build();
         }
     }
 
