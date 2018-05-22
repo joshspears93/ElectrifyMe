@@ -1,7 +1,7 @@
 package spears.electrifyme.core.todo;
 
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-import org.springframework.data.repository.CrudRepository;
 
-public interface ToDoRepository extends CrudRepository<ToDo, String> {
+public interface ToDoRepository extends MongoRepository<ToDo, String>, ToDoRepositoryCustom {
 }
