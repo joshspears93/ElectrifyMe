@@ -29,7 +29,6 @@ public class ToDoController {
         return new ResponseEntity<>(tasks, HttpStatus.OK);
     }
 
-
     /**
      * Get one to do tasks
      */
@@ -51,10 +50,10 @@ public class ToDoController {
     /**
      * Update one to do task
      */
-    @PutMapping("/{id}/update")
-    public ResponseEntity<?> updateToDo(@PathVariable("id") String id, @Valid @RequestBody ToDo todo){
-        ToDo response = toDoService.updateToDo(id, todo);
-        if(response.id != ""){
+    @PutMapping("/update")
+    public ResponseEntity<?> updateToDo(@Valid @RequestBody ToDo todo){
+        ToDo response = toDoService.updateToDo(todo);
+        if(response != null){
             return ResponseEntity.ok().body(response);
         }
         else{
@@ -65,7 +64,7 @@ public class ToDoController {
     /**
      * Delete one to do task
      */
-    @DeleteMapping("/{id}/delete")
+    @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteToDo(@PathVariable("id") String id){
         if(toDoRepository.findById(id).isPresent() ){
             toDoRepository.deleteById(id);

@@ -6,8 +6,13 @@ import lombok.Setter;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.sql.Time;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.Date;
 
 @Data
@@ -19,20 +24,18 @@ public class ToDo {
     @Indexed
     String task;
     Boolean completed;
-    Date dateToComplete;
+    Instant dateToComplete;
     Boolean reminder;
-    Time timeToComplete;
 
     public ToDo(){
 
     }
 
-    public ToDo(String task, boolean completed, Date dateToComplete, boolean reminder, Time timeToComplete){
+    public ToDo(String task, boolean completed, Instant dateToComplete, boolean reminder){
         this.task = task;
         this.completed = completed;
         this.dateToComplete = dateToComplete;
         this.reminder = reminder;
-        this.timeToComplete = timeToComplete;
     }
 
 

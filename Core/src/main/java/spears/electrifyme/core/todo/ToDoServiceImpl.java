@@ -21,6 +21,7 @@ public class ToDoServiceImpl implements ToDoService {
 
     @Override
     public Optional<ToDo> findToDoById(String id){
+
         return toDoRepository.findById(id);
     }
 
@@ -30,12 +31,12 @@ public class ToDoServiceImpl implements ToDoService {
     }
 
     @Override
-    public ToDo updateToDo(String id, ToDo todo){
-        if(toDoRepository.findById(id).isPresent()){
+    public ToDo updateToDo(ToDo todo){
+        if(toDoRepository.findById(todo.id).isPresent()){
             return toDoRepository.save(todo);
         }
         else{
-            return new ToDo();
+            return null;
         }
 
     }
@@ -48,6 +49,7 @@ public class ToDoServiceImpl implements ToDoService {
 
     @Override
     public void deleteAllToDos(){
+
         toDoRepository.deleteAll();
     }
 }

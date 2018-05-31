@@ -11,7 +11,7 @@ public interface ToDoService {
 
     ToDo createToDo(ToDo todo);
 
-    ToDo updateToDo(String id, ToDo todo);
+    ToDo updateToDo(ToDo todo);
 
     void deleteToDoById(String id);
 
