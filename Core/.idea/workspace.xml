@@ -12,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ToDo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ToDo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -36,7 +36,7 @@
       <file leaf-file-name="ToDoServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="-229">
               <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testToDos.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="testToDos.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/testToDos.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="45">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -99,11 +99,11 @@
         <option value="$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoRepositoryImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/testTodos.json.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/package.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/testToDos.json" />
         <option value="$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/testToDos.json" />
       </list>
     </option>
   </component>
@@ -300,12 +300,12 @@
       <workItem from="1526946889091" duration="7977000" />
       <workItem from="1526955014999" duration="2729000" />
       <workItem from="1527727745924" duration="1893000" />
-      <workItem from="1527730880634" duration="4044000" />
+      <workItem from="1527730880634" duration="4137000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20791000" />
+    <option name="totallyTimeSpent" value="20884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="6" />
@@ -332,7 +332,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290398" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07631258" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -599,13 +599,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/testTodos.json.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/testToDos.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoRepositoryCustom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -623,10 +616,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -642,7 +635,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="-229">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -652,10 +645,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spears/electrifyme/core/todo/ToDoRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/testToDos.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>

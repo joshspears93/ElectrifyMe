@@ -1,7 +1,6 @@
 {
   "task":"Test 1",
   "completed": false,
-  "dateToComplete": "2018-01-02",
-  "reminder": false,
-  "timeToComplete": "8:00:00"
+  "dateToComplete": "1527733467",
+  "reminder": false
 }
