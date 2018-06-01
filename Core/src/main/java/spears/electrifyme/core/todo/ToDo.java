@@ -5,13 +5,14 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.Instant;
+import java.util.UUID;
 
 @Data
 @Document(collection = "todo")
 public class ToDo {
 
     @Id
-    String id;
+    String id = UUID.randomUUID().toString();
     @Indexed
     String task;
     Boolean completed;
