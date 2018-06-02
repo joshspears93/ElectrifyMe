@@ -1,6 +1,11 @@
 package spears.electrifyme.core.task;
 
-// Enum class to track stages of a to do object
-enum  Stage {
+// Enum to track stages of a task
+enum Stage {
     PLANNING, TODO, IN_PROGRESS, DONE
+}
+
+// Enum to track scope of tasks
+enum Scope {
+    WORK, PERSONAL, LEARN
 }
