@@ -1,4 +1,4 @@
-package spears.electrifyme.core.todo;
+package spears.electrifyme.core.task;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
@@ -7,31 +7,31 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-@Service("todoService")
-public class ToDoServiceImpl implements ToDoService {
+@Service("taskService")
+public class TaskServiceImpl implements TaskService {
 
     @Autowired
-    ToDoRepository toDoRepository;
+    TaskRepository toDoRepository;
 
     @Override
-    public List<ToDo> findAllTodos(){
+    public List<Task> findAllTasks(){
         Sort sortByCreatedAtDesc = new Sort(Sort.Direction.DESC, "createdAt");
         return toDoRepository.findAll(sortByCreatedAtDesc);
     }
 
     @Override
-    public Optional<ToDo> findToDoById(String id){
+    public Optional<Task> findTaskById(String id){
 
         return toDoRepository.findById(id);
     }
 
     @Override
-    public ToDo createToDo(ToDo todo){
+    public Task createTask(Task todo){
         return toDoRepository.save(todo);
     }
 
     @Override
-    public ToDo updateToDo(ToDo todo){
+    public Task updateTask(Task todo){
         if(toDoRepository.findById(todo.id).isPresent()){
             return toDoRepository.save(todo);
         }
@@ -42,13 +42,13 @@ public class ToDoServiceImpl implements ToDoService {
     }
 
     @Override
-    public void deleteToDoById(String id){
+    public void deleteTaskById(String id){
         toDoRepository.deleteById(id);
 
     }
 
     @Override
-    public void deleteAllToDos(){
+    public void deleteAllTasks(){
 
         toDoRepository.deleteAll();
     }

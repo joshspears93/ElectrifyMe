@@ -1,4 +1,4 @@
-package spears.electrifyme.core.todo;
+package spears.electrifyme.core.task;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
@@ -8,8 +8,10 @@ import java.time.Instant;
 import java.util.UUID;
 
 @Data
-@Document(collection = "todo")
-public class ToDo {
+@Document(collection = "task")
+public class Task {
+
+    //TODO Add stages to make task like a kanbann board
 
     @Id
     String id = UUID.randomUUID().toString();
@@ -19,11 +21,11 @@ public class ToDo {
     Instant dateToComplete;
     Boolean reminder;
 
-    public ToDo(){
+    public Task(){
 
     }
 
-    public ToDo(String task, boolean completed, Instant dateToComplete, boolean reminder){
+    public Task(String task, boolean completed, Instant dateToComplete, boolean reminder){
         this.task = task;
         this.completed = completed;
         this.dateToComplete = dateToComplete;
