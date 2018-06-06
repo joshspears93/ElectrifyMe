@@ -1,9 +1,9 @@
 # ElectrifyMe
 
-## Install
+## Core
+ * Working space for spring boot application providing REST endpoints for front end application
 
-* Steps to install here
+## GUI
+* Working space for angular / electron based front end application
 
-## Running
-
-* Steps to run here
+### Read project specific README.md for further information on each
