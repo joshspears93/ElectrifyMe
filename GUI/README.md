@@ -32,6 +32,8 @@ Run `ng new {App_Name}`
 
 Run `ng generate component {Component_Name}`
 
+Run `ng g c {directory}/{Component_Name}` to create component in specific directory.  Will create if does not exist.
+
 ## Create new service
 
 Run `ng generate service {Service_Name}`

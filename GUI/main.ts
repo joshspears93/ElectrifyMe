@@ -11,8 +11,9 @@ let dev = args.some(arg => arg === '--dev');
 function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
-    width: 600, 
-    height: 600,
+    width: 1200, 
+    height: 700,
+    title: 'ElectrifyMe',
     backgroundColor: '#ffffff',
     icon: `file://${__dirname}/dist/assets/logo.png`
   })
