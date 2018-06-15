@@ -1,0 +1,9 @@
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/CoreApplication.java
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/task/TaskRepository.java
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/task/Task.java
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/task/TaskService.java
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/task/Stage.java
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/task/TaskRepositoryImpl.java
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/task/TaskServiceImpl.java
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/task/TaskRepositoryCustom.java
+/Users/joshspears/ElectrifyMe/Core/src/main/java/spears/electrifyme/core/task/TaskController.java

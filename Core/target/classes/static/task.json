@@ -1,17 +1,19 @@
 {
   "task":"Parent Task",
   "stage": "PLANNING",
-  "scope" : "PERSONAL";
+  "scope" : "PERSONAL",
   "dateCreated" : "1527733467",
   "dateToComplete": "1527733467",
   "reminder": false,
-  "subtasks" : {
+  "subtasks" : [
+    {
     "task":"Child Task",
     "stage": "PLANNING",
-    "scope" : "PERSONAL";
+    "scope" : "PERSONAL",
     "dateCreated" : "1527733467",
     "dateToComplete": "1527733467",
     "reminder": false,
     "subtasks" : null
-  }
+    }
+  ]
 }

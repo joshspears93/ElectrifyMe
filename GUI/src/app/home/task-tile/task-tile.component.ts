@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-task-tile',
+  selector: 'task-tile',
   templateUrl: './task-tile.component.html',
   styleUrls: ['./task-tile.component.css']
 })

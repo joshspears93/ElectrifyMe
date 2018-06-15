@@ -14,8 +14,16 @@
 .title{
     color: white;
     margin-left: 2%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: large;
+    margin-top: 2%;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+
+.buttonArea{
+    /* margin-top: 2% !important; */
+    text-align: right;
+    margin-top: 1%;
+    margin-right: 1%;
 }
 
 .title2{
@@ -30,4 +38,20 @@
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   /* width: 600px; */
   /* margin: 50px auto; */
+}
+
+.outline{
+    border: 1px solid white;
+}
+
+.btn-squared-default{
+    /* width: 100px !important;
+    height: 100px !important; */
+    color: white;
+    font-size: 10px;
+    }
+
+.btn-squared-default:hover{
+    border: 3px solid white;
+    font-weight: 400;
 }

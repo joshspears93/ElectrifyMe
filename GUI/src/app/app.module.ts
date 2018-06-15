@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { AppComponent } from './app.component';
 import { TaskServiceService } from './services/task-service.service';
@@ -17,7 +18,8 @@ import { NewsTileComponent } from './home/news-tile/news-tile.component';
     NewsTileComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BsDropdownModule.forRoot()
   ],
   providers: [
     TaskServiceService
